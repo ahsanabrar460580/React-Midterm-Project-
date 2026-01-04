@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif, Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+
+.navbar {
+  height: 74px;
+  background-color: #e6eeff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav a {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+nav img {
+  width: 24px;
+  height: 24px;
+}
+
+.position-t{
+  position: sticky;
+  top: 0;
+}
+.SELL {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login-btn {
+  color: #000000;
+  padding: 0px 2px;
+  font-size: 15px;
+  margin-left: -474px;
+  text-decoration: none;
+  margin-right: -27px;
+  margin-bottom: 14px;
+  border-bottom: 2px solid black;
+  margin-top: 13px;
+}
+
+.sell-btn {
+  background: white;
+  border: 5px solid;
+  border-image: linear-gradient(to right, #ffce32, #3a77ff, #23e5db) 1;
+  padding: 6px 15px;
+  font-weight: bold;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sell-btn:hover {
+  background-color: #ff3b2e;
+}
+
+.olx-logo {
+    width: 79px;
+  height: 63px;
+  background-color: rgb(255 255 255);
+  padding-bottom: -56px;
+  padding-top: 13px;
+  padding-left: 9px;
+  padding-right: 10px;
+  margin-bottom: -25px;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  margin-left: 81px;
+  margin-right: -62px;
+  margin-bottom: 46px;
+  margin-top: 57px;
+}
+.car-logo {
+  margin-right: 554px;
+}
+
+.car-logo img {
+  width: 64px;
+  height: 58px;
+}
+.house-logo {
+  margin-right: 1172px;
+  margin-left: -615px;
+}
+.house-logo img {
+  width: 33px;
+  height: 24px;
+}
+.second-navbar {
+  height: 73px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 14%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.locations {
+  width: 373px;
+  height: 47px;
+  padding: 0 12px;
+  font-size: 16px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin-left: -197px;
+  margin-bottom: -7px;
+}
+.locations:focus {
+  outline: none;
+  border-color: #312eff;
+}
+
+input[list="search"] {
+  width: 846px;
+  height: 48px;
+  padding: 0 12px;
+  font-size: 16px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  margin-left: -639px;
+  margin-right: -201px;
+  margin-bottom: -4px;
+}
+input[list="search"]:focus {
+  outline: none;
+  border-color: #312eff;
+}
+
+button[class="search-btn"] {
+  background-color: #002f34;
+  color: #ffffff;
+  font-size: medium;
+  width: 86px;
+  height: 50px;
+  margin-left: 121px;
+  margin-right: -169px;
+  margin-bottom: -4px;
+  padding-bottom: 0px;
+  padding-top: 3px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.top-nav {
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  font-size: medium;
+  gap: 37px;
+  margin-left: 139px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.baner {
+  padding-left: 147px;
+}
+
+.baner-one {
+  border-radius: 10px;
+  margin-left: -4px;
+  margin-top: 28px;
+}
+
+.baner-two {
+  border-radius: 10px;
+  margin-left: -4px;
+  margin-top: 28px;
+  width: 1209px;
+}
+
+.categories {
+  color: #924742;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categories {
+  border-color: #ffffff;
+  font-size: 17px;
+  color: #000000;
+}
+
+.categories:focus {
+  border-color: #ffffff;
+}
+.categories::after {
+  border-color: #ff3b2e;
+}
+.strong-col {
+  font-size: 20px;
+  font-weight: bold;
+}
