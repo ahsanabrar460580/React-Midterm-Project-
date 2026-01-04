@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*** Footer Section ***/
+.footer_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 50px 50px 50px;
+  background-color: rgb(225, 224, 224);
+  border-top: 1px solid rgba(0, 47, 52, 0.6);
+}
+.foot_product_names {
+  font-size: 12px;
+  color: rgba(0, 47, 52, 0.6);
+  line-height: 20px;
+  margin-top: 10px;
+}
+.media_details {
+  margin-top: 10px;
+}
+.media {
+  border: 2px solid rgba(0, 47, 52, 0.6);
+  color: rgba(0, 47, 52, 0.6);
+  border-radius: 50%;
+  padding: 3px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.social1 {
+  font-size: 12px;
+  padding: 4px 5px;
+}
+.social2 {
+  font-size: 12px;
+  padding: 4px 7px;
+}
+.social3 {
+  font-size: 11px;
+  padding: 5px 7px;
+}
+.social4 {
+  padding: 3px 5px;
+}
+/* foot_app */
+.foot_apps {
+  margin-top: 30px;
+}
+
+.foot_app {
+  height: 23px;
+  width: 68px;
+  margin-right: 5px;
+  box-shadow: 0px 2px 4px gray;
+}
+.foot_apple {
+  height: 31px;
+  width: 79px;
+  margin-top: 6px;
+}
+.end_footer {
+  height: 50px;
+  width: 98vw;
+  background-color: #002f34;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 90px;
+}

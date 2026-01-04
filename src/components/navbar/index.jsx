@@ -6,32 +6,32 @@ function Navbar() {
     <>
     <div className="position-t">
       <nav className="navbar">
-        <a href="#">
+        <>
           <img
             class="olx-logo"
             src="https://upload.wikimedia.org/wikipedia/commons/4/42/OLX_New_Logo.png"
             alt="olx-logo"
           />
-        </a>
+        </>
 
-        <a href="#" class="car-logo">
+        <div class="car-logo ">
           <img
             src="https://static.vecteezy.com/system/resources/thumbnails/025/305/916/small/white-sport-car-on-transparent-background-3d-rendering-illustration-free-png.png"
             alt="car-logo"
           />
-          <strong>Motors</strong>
-        </a>
+          <strong className="hover-col">Motors</strong>
+        </div>
 
-        <a href="#" class="house-logo">
+        <div class="house-logo ">
           <img
             src="https://www.olx.com.pk/assets/iconProperty.d09c6d2e3621f900c17c9e8330a1a37b.png"
             alt="house-logo"
           />
-          <strong>Property</strong>
-        </a>
-        <a class="login-btn">
+          <strong className="mg-b hover-col">Property</strong>
+        </div>
+        <button class="login-btn link-style-button">
           <strong>LogIn</strong>
-        </a>
+        </button>
         <button class="sell-btn" type="button">
           SELL
         </button>
@@ -73,13 +73,13 @@ function Navbar() {
           <option>China</option>
           <option>UAE</option>
         </select>
-        <a href="#">Mobile Phones</a>
-        <a href="#">Cars</a>
-        <a href="#">Motorcycles</a>
-        <a href="#">House</a>
-        <a href="#">Video-Audios</a>
-        <a href="#">Tables</a>
-        <a href="#">Land & Plots</a>
+        <button className="link-style-button">Mobile Phones</button>
+        <button className="link-style-button">Cars</button>
+        <button className="link-style-button">Motorcycles</button>
+        <button className="link-style-button">House</button>
+        <button className="link-style-button">Video-Audios</button>
+        <button className="link-style-button">Tables</button>
+        <button className="link-style-button">Land & Plots</button>
       </div>
 
 

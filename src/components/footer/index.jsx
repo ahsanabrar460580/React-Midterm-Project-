@@ -1,4 +1,5 @@
 import React from 'react'
+import './style.css'
 
 function Footer() {
   return (
@@ -65,36 +66,36 @@ function Footer() {
 
       <div className="ad_detail foot_apps">
         <div className="app_store app cursor">
-          <a href="#">
+          <div>
             <img
               src="https://www.olx.com.pk/assets/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
-              alt=""
+              alt="..."
               width="120px"
               className="apple foot_apple"
             />
-          </a>
+          </div>
         </div>
 
         <div className="google_play app cursor">
-          <a href="#">
+          <div>
             <img
               src="https://minitaxi.se/wp-content/uploads/2023/06/googleplay-1-e1686150270869.png"
-              alt=""
+              alt="..."
               width="120px"
               className="apps foot_app"
             />
-          </a>
+          </div>
         </div>
 
         <div className="app_gallery app cursor">
-          <a href="#">
+          <div>
             <img
               src="https://www.olx.com.pk/assets/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
-              alt=""
+              alt="..."
               width="132px"
               className="apps foot_app"
             />
-          </a>
+          </div>
         </div>
       </div>
     </div>

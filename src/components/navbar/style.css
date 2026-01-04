@@ -25,7 +25,7 @@ nav img {
   height: 24px;
 }
 
-.position-t{
+.position-t {
   position: sticky;
   top: 0;
 }
@@ -65,10 +65,10 @@ nav img {
 }
 
 .olx-logo {
-    width: 79px;
+  width: 79px;
   height: 63px;
   background-color: rgb(255 255 255);
-  padding-bottom: -56px;
+  padding-bottom: 7px;
   padding-top: 13px;
   padding-left: 9px;
   padding-right: 10px;
@@ -77,9 +77,22 @@ nav img {
   border-top-left-radius: 16px;
   margin-left: 81px;
   margin-right: -62px;
-  margin-bottom: 46px;
+  margin-bottom: 37px;
   margin-top: 57px;
 }
+
+.link-style-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit; /* font same as surrounding text */
+  border-color: transparent;
+}
+.link-style-button:hover {
+  color: #3a77ff;
+  border-color: transparent;
+}
+
 .car-logo {
   margin-right: 554px;
 }
@@ -87,6 +100,7 @@ nav img {
 .car-logo img {
   width: 64px;
   height: 58px;
+  margin-bottom: -24px;
 }
 .house-logo {
   margin-right: 1172px;
@@ -94,7 +108,10 @@ nav img {
 }
 .house-logo img {
   width: 33px;
+  margin-left: -22px;
   height: 24px;
+  margin-bottom: -7px;
+  margin-right: 9px;
 }
 .second-navbar {
   height: 73px;
@@ -104,7 +121,9 @@ nav img {
   align-items: center;
   justify-content: space-around;
 }
-
+.mg-b{
+  margin-bottom: 10px;
+}
 .locations {
   width: 373px;
   height: 47px;
@@ -161,11 +180,9 @@ button[class="search-btn"] {
   margin-left: 139px;
 }
 
-a {
-  text-decoration: none;
-  color: #000000;
+.hover-col:hover{
+  color: #3a77ff;
 }
-
 .baner {
   padding-left: 147px;
 }

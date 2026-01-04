@@ -12,9 +12,6 @@
   padding-right: 200px;
 }
 
-a {
-  text-decoration: none;
-}
 /* navbar */
 .navbar {
   position: sticky;
@@ -38,6 +35,10 @@ a {
   font-weight: 700;
   text-align: center;
   margin: 0 20px 20px 0;
+}
+
+.categories:hover{
+  color: #2f67f6;
 }
 
 /*** more in products ***/
