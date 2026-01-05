@@ -1,8 +1,8 @@
 {
   "name": "olx-app",
+  "username":"ahsanabrar",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ahsanabrar460580.github.io/React-Midterm-Project-",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
