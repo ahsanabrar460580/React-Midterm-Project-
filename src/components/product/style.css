@@ -87,6 +87,10 @@ a {
   flex-direction: column;
   justify-content: space-between;
   padding-left: 10px;
+  color: #002f34;
+}
+.product_detail:hover{
+  color: #2f67f6;
 }
 /* pricing */
 .price_heart {
@@ -96,30 +100,8 @@ a {
 .price {
   font-weight: 700;
 }
-/* product name in card */
-.name {
-  padding: 12px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 
 
-.name2 {
-  padding-bottom: 20px;
-}
-.location {
-  font-size: 14px;
-  padding-bottom: 5px;
-  color: gray;
-}
-.time {
-  font-size: 12px;
-  color: gray;
-}
-.heart {
-  font-size: 20px;
-}
 
 /*** Footer Section ***/
 .ad {

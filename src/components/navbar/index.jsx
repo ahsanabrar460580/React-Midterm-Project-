@@ -6,35 +6,35 @@ function Navbar() {
     <>
     <div className="position-t">
       <nav className="navbar">
-        <>
+        <a href="/home">
           <img
             class="olx-logo"
             src="https://upload.wikimedia.org/wikipedia/commons/4/42/OLX_New_Logo.png"
             alt="olx-logo"
           />
-        </>
+        </a>
 
-        <div class="car-logo ">
+        <a href="/home" class="car-logo ">
           <img
             src="https://static.vecteezy.com/system/resources/thumbnails/025/305/916/small/white-sport-car-on-transparent-background-3d-rendering-illustration-free-png.png"
             alt="car-logo"
           />
-          <strong className="hover-col">Motors</strong>
-        </div>
+          <strong className="col-b hover-col">Motors</strong>
+        </a>
 
-        <div class="house-logo ">
+        <a href="/home" class="house-logo ">
           <img
             src="https://www.olx.com.pk/assets/iconProperty.d09c6d2e3621f900c17c9e8330a1a37b.png"
             alt="house-logo"
           />
-          <strong className="mg-b hover-col">Property</strong>
-        </div>
-        <button class="login-btn link-style-button">
+          <strong className="mg-b col-b hover-col">Property</strong>
+        </a>
+        <a href="/home" class="login-btn link-style-button">
           <strong>LogIn</strong>
-        </button>
-        <button class="sell-btn" type="button">
+        </a>
+        <a href="/home" class="sell-btn" type="button">
           SELL
-        </button>
+        </a>
       </nav>
       <nav class="second-navbar">
         <div>
@@ -67,19 +67,19 @@ function Navbar() {
       </nav>
       </div>
       <div class="top-nav">
-        <select class="categories" name="country" id="select_bar">
-            <option class="strong-col">All Categories</option>
-          <option>Pakistan</option>
-          <option>China</option>
-          <option>UAE</option>
+        <select className="categories" name="country" id="select_bar">
+            <option className="hover-col">All Categories</option>
+          <option className="hover-col">Pakistan</option>
+          <option className="hover-col">China</option>
+          <option className="hover-col">UAE</option>
         </select>
-        <button className="link-style-button">Mobile Phones</button>
-        <button className="link-style-button">Cars</button>
-        <button className="link-style-button">Motorcycles</button>
-        <button className="link-style-button">House</button>
-        <button className="link-style-button">Video-Audios</button>
-        <button className="link-style-button">Tables</button>
-        <button className="link-style-button">Land & Plots</button>
+        <a href="/home" className="link-style-button">Mobile Phones</a>
+        <a href="/home" className="link-style-button">Cars</a>
+        <a href="/home" className="link-style-button">Motorcycles</a>
+        <a href="/home" className="link-style-button">House</a>
+        <a href="/home" className="link-style-button">Video-Audios</a>
+        <a href="/home" className="link-style-button">Tables</a>
+        <a href="/home" className="link-style-button">Land & Plots</a>
       </div>
 
 

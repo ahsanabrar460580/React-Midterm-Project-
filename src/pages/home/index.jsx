@@ -5,7 +5,6 @@ import Products from "../../components/product/index"
 import Footer from "../../components/footer/index"
 
 function Home() {
-  alert("Welcome to olx clone")
   return (
     <>
       <Navbar  />
